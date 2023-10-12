@@ -6,7 +6,7 @@ colnames(sms_data) <- c("Label", "Message")
 
 #write.csv(sms_data, "sms_data.csv", row.names = FALSE)
 
-sms_raw <- read.csv("spam/sms_data.csv", stringsAsFactors = FALSE)
+sms_raw <- read.csv("Naivebayes/sms_data.csv", stringsAsFactors = FALSE)
 str(sms_raw)
 
 #create a factor
