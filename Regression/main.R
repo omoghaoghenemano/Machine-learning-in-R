@@ -1,4 +1,4 @@
-insurance <- read.csv("Linearregression/insurance.csv")
+insurance <- read.csv("Regression/insurance.csv")
 #install.packages("psych")
 #install.packages("lm")
 
